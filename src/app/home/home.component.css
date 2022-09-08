@@ -1,0 +1,35 @@
+.fs-logo {
+  width: 121px;
+  height: 138px;
+  margin: 70px auto 14px auto;
+  display: block;
+}
+
+.fs-line1 {
+  font-family: "ReadexPro-Bold";
+  text-align: center;
+  font-size: 64px;
+  line-height: 64px;
+  color: #3A71CB;
+  transform: matrix(1, 0, -0.09, 1, 0, 0);
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.fs-line2 {
+  font-family: "ReadexPro-Medium";
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  color: #999999;
+  display: block;
+  margin-top: 20px;
+}
+
+.fs-banner {
+  width: 358px;
+  height: 208px;
+  margin: 70px auto 10px auto;
+  display: block;
+}

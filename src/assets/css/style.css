@@ -1,0 +1,213 @@
+/** start header section  **/
+.header{
+    height:auto;
+    z-index: 1040;
+    width: 100%;
+    padding-top: 0rem;
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 80px rgba(66, 133, 244, 0.05), 0px 1.2963px 46.8519px rgba(66, 133, 244, 0.037963), 0px 0.77037px 25.4815px rgba(66, 133, 244, 0.0303704), 0px 0.4px 13px rgba(66, 133, 244, 0.025), 0px 0.162963px 6.51852px rgba(66, 133, 244, 0.0196296), 0px 0.037037px 3.14815px rgba(66, 133, 244, 0.012037);
+}
+
+.top-contact-header{
+  -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+header.header.header-shadow {
+    box-shadow: 0px 2px 6px 0 rgb(101 101 101 / 16%);
+}
+.top-contact-header {
+    background: rgb(217 245 255 / 50%);
+    padding: 4px 0;
+}
+nav.navbar.navbar-expand-lg.header-top2 {
+    padding: 15px 0;
+}
+
+button.navbar-toggler.togglerBtn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    position: fixed;
+    right: 15px;
+    top: 28px;
+    z-index: 99;
+
+}
+.topmenu-ul1 .dropdown-toggle {
+    color: #333333;
+    font-family: 'ReadexPro-Medium';
+    font-size: 14px;
+    border: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    /*text-transform: capitalize;*/
+}
+.topmenu-ul1 .dropdown-menu .dropdown-item img
+{
+    width: 20px !important;
+    height: 20px;
+    margin-right: 10px;
+}
+.topmenu-ul1 .dropdown-menu a.dropdown-item{
+    font-size: 14px;
+}
+.topmenu-ul1 .dropdown-menu a.dropdown-item:hover {
+    background: #DBEAFE;
+}
+.topmenu-ul1 .dropdown-toggle img{
+    margin-right: 8px;
+}
+button.navbar-toggler.togglerBtn:focus{
+    outline: none;
+        box-shadow:none;
+}
+.tbar {
+    height: 1px;
+    width: 100%;
+    background: #4ea749;
+    margin: 6px auto;
+    display: block;
+}
+button.navbar-toggler.togglerBtn:focus{
+    outline: none;
+}
+.change .tbar2{
+    opacity: 0;
+}
+.tbar1, .tbar3
+{
+    transition: 0.4s;
+}
+.change .tbar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 4px);
+    transform: rotate(-45deg) translate(-8px, 4px);
+}
+.change .tbar3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -2px);
+    transform: rotate(45deg) translate(-5px, -2px);
+}
+
+.header-top-memu .nav-link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.header-top-memu .nav-link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    color: #4285F4;
+    font-family:'ReadexPro-Medium';
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-transform: capitalize;
+    position: relative;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.gredient-bg-dv{
+    background-image: url(../images/structure/background-g.png);
+    min-height: 100vh;
+    max-height: max-content;
+    padding-bottom: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-wraper {
+    padding-top: 50px;
+}
+.paymentform .form-check.radio .form-check-input {
+    float: none;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+}
+.radio{
+    position: relative;
+}
+.paymentform .radio label{
+    padding-left: 0;
+        padding-right: 35px;
+}
+.paymentform .form-check.radio{
+    padding-left: 40px;
+    margin-bottom: 25px;
+}
+.paymentform .radio label img {
+    width: 25px;
+    position: absolute;
+    left: 0;
+}
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #64748B;
+}
+.form-check-input:checked {
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+.paymentform .radio label span {
+    color: #4285F44D;
+    margin-left: auto;
+}
+.paymentform .checkbox label.form-check-label {
+    padding-left: 18px;
+}
+.paymentform .btn {
+    min-width: 82px;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.progress-bar {
+    height: 4px;
+    background: linear-gradient(271.89deg, #3A71CB 22.06%, #6B99E6 116.84%);
+}
+.progress {
+    height: 4px;
+    border-radius: 0;
+    background-color: #F1F5F9;
+}
+.white-box {
+    box-shadow: 0px 2px 80px rgb(66 133 244 / 5%), 0px 1.2963px 46.8519px rgb(66 133 244 / 4%), 0px 0.77037px 25.4815px rgb(66 133 244 / 3%), 0px 0.4px 13px rgb(66 133 244 / 3%), 0px 0.162963px 6.51852px rgb(66 133 244 / 2%), 0px 0.037037px 3.14815px rgb(66 133 244 / 1%);
+    border-radius: 24px;
+    background: #fff;
+    padding: 40px 68px;
+    min-height: 584px;
+}
+.image-preview-image{
+    max-height: 100%;
+    max-width: 100%;
+}
+.vdoboximg{
+    width: 100%;
+    height: 100%;
+}
+.vdoboximg{
+    height: 584px;
+}
+.filHeader-cl .btn {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: center;
+}
+.filHeader-cl .btn img{
+    margin-right: 8px;
+}
