@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  sessionData = null;
+
+  constructor(private apiService: ApiService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.queryParams.subscribe(async params => {
+      const sessionId = params['session_id'];
+      if (sessionId) {
+        this.sessionData = await this.apiService.getSessionData(sessionId);
+      }
+    });
   }
-
 }
