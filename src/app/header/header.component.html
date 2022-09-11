@@ -18,8 +18,12 @@
           <li class="nav-item">
             <a class="nav-link tpmenu" href="/assets/deck.pdf" target="_blank">Deck</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link tpmenu" href="#">Login</a>
+
+          <li class="nav-item" *ngIf="!sessionData">
+            <a class="nav-link tpmenu" href="https://api.filesync.pro/auth_0">Login</a>
+          </li>
+          <li class="nav-item" *ngIf="sessionData">
+            <a class="nav-link tpmenu" href="javascript:void(0)">{{sessionData.email}}</a>
           </li>
         </ul>
       </div>
